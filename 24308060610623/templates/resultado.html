@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h5 class="text-center mb-3">Resultados</h5>
+
+<p><b>Genero:</b> {{ genero }}</p>
+<p><b>TMB (kcal/día):</b> {{ tmb }}</p>
+<p><b>GET (kcal/día):</b> {{ get }}</p>
+
+<div class="text-center mt-3">
+    <a href="/tmb" class="btn btn-primary">Regresate</a>
+</div>
+{% endblock %}
